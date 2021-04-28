@@ -1,0 +1,64 @@
+.itensContainer {
+    display: flex;
+    gap: 3rem;
+    padding: 0 3rem;
+    justify-content: space-between;
+}
+
+.itemBox {
+    width: 50%;
+    background-color: var(--light-purple);
+    padding: 1rem 2.25rem;
+    margin: 2rem 0;
+    transition: background-color .3s, box-shadow .3s;
+}
+
+.itemBox:hover {
+    background-color: var(--hover-light-purple);
+    -webkit-box-shadow: 4px 4px 5px 0px rgba(12,12,12,0.36);
+    -moz-box-shadow: 4px 4px 5px 0px rgba(12,12,12,0.36);
+    box-shadow: 4px 4px 5px 0px rgba(12,12,12,0.36);
+}
+
+.itemBox h3 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.itemBox ul {
+    padding-left: .75rem;
+}
+
+.itemBox ul li {
+    margin-top: .4rem;
+    font-size: 1.10rem;
+}
+
+.itemBox ul li::before {
+    content: '⊰➛';
+    margin-right: .25rem;
+}
+
+.itemBox p {
+    font-size: 1.25rem;
+}
+
+.sobre h4 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:820px){
+    .itensContainer{
+        flex-direction: column;
+        gap: 0rem;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .itemBox {
+        width: 100%;
+        margin: 1rem 0;
+    }
+}

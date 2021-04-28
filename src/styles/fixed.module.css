@@ -1,0 +1,46 @@
+header {
+    background-color: var(--dark-purple);
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+}
+
+.container h1 a {
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.container a {
+    color: var(--white-text);
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
+
+.container nav ul {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.container nav ul a {
+    font-size: 1.25rem;
+    transition: font-size .3s;
+}
+
+.container nav ul a:hover {
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: var(--black);
+    font-size: 1.25rem;
+}
+
+footer .container p {
+    color: var(--white-text);
+    font-family: 'Dancing Script';
+}

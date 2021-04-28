@@ -1,0 +1,27 @@
+.container {
+    max-width: 600px;
+}
+
+.container p {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.container ul {
+    text-align: center;
+}
+
+.container ul li {
+    margin: 1rem 0;
+    font-size: 1.25rem;
+}
+
+.container a {
+    display: block;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}

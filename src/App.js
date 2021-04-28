@@ -1,4 +1,8 @@
 import React from "react";
+import style from './styles/fixed.module.css';
+import GerarFicha from './pages/GerarFicha';
+import GemialidadeWeasley from './pages/GemialidadeWeasley'
+import Home from './pages/Home';
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,30 +14,41 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+        <header>
+          <div class={style.container + ' container'}>
+            <h1><Link to="/">Hogwarts HM</Link></h1>
+            <nav id="desktop">
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/gemialidadeweasley">Gemialidade Weasley</Link>
+                </li>
+                <li>
+                  <Link to="/gerarficha">Gerar Ficha</Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
         <Switch>
-          <Route path="/about">
-            <About />
+          <Route path="/gemialidadeweasley">
+            <GemialidadeWeasley />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/gerarficha">
+            <GerarFicha />
           </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
+        <footer>
+          <div class={style.container + ' container'}>
+            <p>Amanda © 2004-{new Date().getFullYear()}</p>
+            <a href="https://brennonaleatorio.com.br" >⊰➛ Desenvolvedor: Brennon Oliveira</a>
+          </div>
+        </footer>
       </div>
     </Router>
   );
