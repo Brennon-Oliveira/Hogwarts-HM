@@ -26,7 +26,7 @@ export default function TabelaPrecos(props){
     var mostrar = [];
     for(let i = 0; i < produtos.length; i++){
         var numero = '7488196181';
-        if(i % 2 == 0){
+        if(i % 2 === 0){
             numero = '4298147309';
         }
         mostrar.push(<Produto title={produtos[i].title} emote={produtos[i].emote} price={produtos[i].price} description={produtos[i].description} numero={numero} />);

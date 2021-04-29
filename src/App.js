@@ -25,6 +25,9 @@ export default function App() {
                 <li>
                   <Link to="/gemialidadeweasley">Gemialidade Weasley</Link>
                 </li>
+                <li>
+                  <Link to="/gerarficha">Gerar Ficha</Link>
+                </li>
               </ul>
             </nav>
           </div>
