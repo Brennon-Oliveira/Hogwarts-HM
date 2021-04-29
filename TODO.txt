@@ -1,0 +1,1 @@
+https://api.whatsapp.com/send?phone=5542999017838&text=Nome%3A%20Brennon%20Gabriel%20-%20Idade%3A%2017%20-%20Indicado%20por%20quem%2Fonde%3A%20Amanda%20-%20Tipo%20de%20Sangue%3A%20Puro%20-%20Casa%20Comunal%3A%20Ravenclaw%20-%20Animal%3A%20Sapo

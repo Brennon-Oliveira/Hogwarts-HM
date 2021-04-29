@@ -1,0 +1,46 @@
+.produto {
+    background-color: var(--purple);
+    max-width: 800px;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.produto * {
+    color: var(--white-text);
+}
+
+.produto h3 {
+   font-family: 'Dancing Script';
+   font-size: 1.5rem;
+   font-weight: normal;
+}
+
+.produto p {
+    margin: 1rem 0;
+}
+
+.produto p:first-of-type {
+    font-size: 1.5rem;
+}
+
+.produto p:last-of-type {
+    font-size: 1.10rem;
+}
+
+.produto h4 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-bottom:1rem;
+}
+
+.produto a {
+    font-size: 1.5rem;
+}
+
+.produto a::before {
+    content: "⊰➛ ";
+}
+
+.produto a:hover {
+    text-decoration: underline;
+}

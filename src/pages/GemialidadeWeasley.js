@@ -1,9 +1,12 @@
 import React from 'react';
+import TabelaPrecos from '../components/gemialidadeweasley/TabelaPrecos';
+import GemialidadeWeasle from './../components/GemialidadeWeasleySobre';
 
 export default (props)=>{
     return(
         <div>
-            <h2>Gemialidade Weasley</h2>
+            <GemialidadeWeasle />
+            <TabelaPrecos />
         </div>
     )
 }

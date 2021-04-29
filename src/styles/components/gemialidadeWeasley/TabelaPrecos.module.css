@@ -1,0 +1,7 @@
+.tabelaPrecos > div > div {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}

@@ -44,3 +44,17 @@ footer .container p {
     color: var(--white-text);
     font-family: 'Dancing Script';
 }
+
+@media (max-width: 550px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container nav {
+        margin-top:1rem
+    }
+
+    footer .container p {
+        margin-bottom: 1rem;
+    }
+}

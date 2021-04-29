@@ -1,0 +1,60 @@
+.gerarFicha > div {
+    text-align: center
+}
+
+.gerarFicha form {
+    margin-top:1rem;
+    max-width:600px;
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.wrapper {
+    margin-top: 1.25rem;
+}
+
+.wrapper label {
+    font-size: 1.5rem;
+}
+
+.wrapper input, .wrapper select {
+    border: none;
+    background-color: var(--input);
+    height: 42px;
+    padding-left: 8px;
+    margin-top: .75rem;
+    width: 100%;
+    border-radius: 10px;
+    color: var(--black);
+    font-size: .9rem;
+}
+
+.wrapper select option {
+    background-color:var(--light-purple);
+}
+
+.wrapper input::placeholder {
+    color: var(--purple)
+}
+
+.wrapperSubmit {
+    text-align: center
+}
+
+.wrapperSubmit button{
+    background-color: var(--purple);
+    color: var(--white-text);
+    border:none;
+    width: 100%;
+    max-width:200px;
+    padding: .75rem 2%;
+    font-size: 1.10rem;
+    cursor: pointer;
+    transition: background-color .3s;
+    border-radius: 5px;
+}
+
+.wrapperSubmit button:hover {
+    background-color: var(--dark-purple);
+}
