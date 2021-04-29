@@ -2,7 +2,7 @@ import React from 'react';
 import style from './../styles/components/GemialidadeWeasleySobre.module.css'
 import { Link } from 'react-router-dom';
 
-export default (props)=>{
+export default function GemialidadeWeasleySobre(props){
     return(
         <section class={style.loja}>
             <div class={style.container + ' container'}>

@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import style from '../styles/components/gerarFicha/GerarFicha.module.css';
 
-export default (props)=>{
+export default function GerarFicha(props){
 
     const [nome, setNome] = useState('');
     const [idade, setIdade] = useState();
     const [indicacao, setIndicacao] = useState('');
-    const [sangue, setSangue] = useState(['Puro', 'Mestiço', 'Trouxa']);
-    const [casa, setCasa] = useState(['Stytherin', 'Ravenclaw', 'Hufflepuff', 'Gryffindor']);
-    const [animal, setAnimal] = useState(['Sapo', 'Gato', 'Coruja', 'Rato', 'Furão']);
+    const [sangue] = useState(['Puro', 'Mestiço', 'Trouxa']);
+    const [casa] = useState(['Stytherin', 'Ravenclaw', 'Hufflepuff', 'Gryffindor']);
+    const [animal] = useState(['Sapo', 'Gato', 'Coruja', 'Rato', 'Furão']);
 
     function createLink(e){
         e.preventDefault();
 
-        if(nome == '' || idade == '' || indicacao == ''){
+        if(nome === '' || idade === '' || indicacao === ''){
             alert('Todos os campos devem ser preenchidos');
             return false;
         }

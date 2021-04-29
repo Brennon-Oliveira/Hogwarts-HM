@@ -2,7 +2,7 @@ import React from 'react';
 import Produto from '../Produto';
 import style from './../../styles/components/gemialidadeWeasley/TabelaPrecos.module.css'
 
-export default (props)=>{
+export default function TabelaPrecos(props){
 
     var produtos = [
         {title:'Orelhas extensíveis',emote:'👂🏻',price:"400",description:"Esse produto poderá ser utilizado para você visitar uma comunal por 1 hora"},

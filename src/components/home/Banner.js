@@ -2,7 +2,7 @@ import React from 'react';
 import style from './../../styles/components/home/Banner.module.css';
 import { Link } from 'react-router-dom';
 
-export default (props)=>{
+export default function Banner(props){
     return(
         <section class={style.banner}>
             <div class={style.overlay}></div>

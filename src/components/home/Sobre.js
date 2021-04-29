@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './../../styles/components/home/Sobre.module.css';
 
-export default (props)=>{
+export default function Sobre(props){
     return(
         <section class={style.sobre}>
             <div class={style.container + ' container'}>

@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './../styles/components/Produto.module.css'
 
-export default (props)=>{
+export default function Produto(props){
     return(
         <div class={style.produto}>
             <h3>{props.title}</h3>
