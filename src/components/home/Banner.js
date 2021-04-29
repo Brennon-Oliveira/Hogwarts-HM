@@ -9,7 +9,7 @@ export default function Banner(props){
             <div class={style.container + ' container'}>
                 <div>
                     <p>Os senhores Aluado, Rabicho , Almofadinhas e Pontas tem o prazer em convidá-los para a Escola de Magia e Bruxaria de Hogwarts, aonde irão aprender inúmeras pegadinhas, feitiços, azarações e muito mais.</p>
-                    <Link to="/gerarficha">Embarcar no Expresso de Hogwarts</Link>
+                    <Link to="/gemialidadeweasley">Ver a Gemialidade Weasley</Link>
                 </div>
             </div>
         </section>

@@ -7,6 +7,7 @@ export default function GerarFicha(props){
     const [idade, setIdade] = useState();
     const [indicacao, setIndicacao] = useState('');
     const [sangue] = useState(['Puro', 'Mestiço', 'Trouxa']);
+    const [admin] = useState(['4298147309', '7488196181', '11952372455', '21988878444']);
     const [casa] = useState(['Stytherin', 'Ravenclaw', 'Hufflepuff', 'Gryffindor']);
     const [animal] = useState(['Sapo', 'Gato', 'Coruja', 'Rato', 'Furão']);
 
@@ -22,7 +23,7 @@ export default function GerarFicha(props){
         var casaId = document.getElementById('casa').value;
         var animalId = document.getElementById('animal').value;
 
-        window.location.replace("https://api.whatsapp.com/send?phone=554284055965&text=Nome%3A%20"+nome.replace(/ /g, '%20')+"%20-%20Idade%3A%20"+idade+"%20-%20Indicado%20por%20quem%2Fonde%3A%20"+indicacao.replace(/ /g, '%20')+"%20-%20Tipo%20de%20Sangue%3A%20"+sangue[sangueId]+"%20-%20Casa%20Comunal%3A%20"+casa[casaId]+"%20-%20Animal%3A%20"+animal[animalId]);
+        window.location.replace("https://api.whatsapp.com/send?phone=55"+admin[casaId]+"&text=Nome%3A%20"+nome.replace(/ /g, '%20')+"%20-%20Idade%3A%20"+idade+"%20-%20Indicado%20por%20quem%2Fonde%3A%20"+indicacao.replace(/ /g, '%20')+"%20-%20Tipo%20de%20Sangue%3A%20"+sangue[sangueId]+"%20-%20Casa%20Comunal%3A%20"+casa[casaId]+"%20-%20Animal%3A%20"+animal[animalId]);
 
     }
 
