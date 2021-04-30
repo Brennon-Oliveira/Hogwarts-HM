@@ -24,7 +24,7 @@ export default function Sobre(props){
                         Basta entrar no chapéu seletor e será selecionada para sua casa!!!</p>
                     </div>
                 </div>
-                <h4>Teremos um premio final, como se fosse a taca, daremos pros alunos que mais se desempenhar</h4>
+                <h4>Teremos um prêmio final, como se fosse a taça, daremos pros alunos que mais se desempenhar</h4>
             </div>
         </section>
     )

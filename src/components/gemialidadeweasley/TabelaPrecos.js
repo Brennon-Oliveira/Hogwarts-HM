@@ -15,7 +15,7 @@ export default function TabelaPrecos(props){
         {title:'Poção do amor',emote:'⚗️ ',price:'235',description:'A pessoa que receber a poção deve mandar o brasão da comunal de quem enviou de 5 em 5 minutos durante o período de 30 minutos'},
         {title:'Chapéu-Escudo individual',emote:'🎩',price:'320',description:'Você está com febre e começa delirar.Agora só pode digitar trocando a letra R por L durante 30 minutos'},
         {title:'Chapéu-Escudo comunal',emote:'👒',price:'600',description:'Só pode ser comprado um item por aluno. Ele te protege de receber qualquer ataque durante 20 minutos'},
-        {title:'Febricolate',emote:'🍫',price:'150',description:'Poderá ser utilizado como proteção, mas poderá ser comprado apenas 2 por comunal na semana com o efeito de 1 hora sem receber prenda a casa receber prenda'},
+        {title:'Febricolate',emote:'🍫',price:'150',description:'Poderá ser utilizado como proteção, mas poderá ser comprado apenas 2 por comunal na semana com o efeito de 1 hora sem receber prenda'},
         {title:'Diabinhos de pimenta',emote:'🌶️',price:'275',description:'É difícil falar com a boca ardendo, diga apenas sim ou não durante 10 minutos'},
         {title:'Ratinhos de Sorvete',emote:'🍨',price:'100',description:'Doces que fazem os dentes do consumidor "vibrarem e rangerem." Escreva errado durante 15 minutos'},
         {title:'Varinhas de imitação',emote:'💥',price:'280',description:'Explodem quando o bruxo tenta fazer algum feitiço, escreva em CAPS e com o Emoji 💥 no lugar da letra "O" durante 15 minutos'},
